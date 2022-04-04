@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
                 
             </div>
-            <h1 className='text-4xl text-teal-800 text-center'>Customer Review {movies.length}</h1>
+            <h1 className='text-4xl text-teal-800 text-center'>Customer Review {movies.slice(0,3).length}</h1>
             <div className=' grid md:grid-cols-3 gap-5 items-center my-8 mx-40'>
                 {
                     movies.slice(0,3).map(movie =><MovieReview key={movie.id} movie={movie}></MovieReview>)

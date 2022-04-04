@@ -12,13 +12,15 @@ const Home = () => {
     }
     return (
         <div>
-            <div className=' flex justify-around m-10 p-10'>
+            <div className=' flex flex-wrap justify-around items-center m-10 p-10'>
                 <div className=' shadow-stone-400 shadow-xl rounded-xl'>
                 <img className=' w-96 rounded-2xl' src={ImgBanner} alt="movieBanner" />
                 </div>
-                <div>
+                <div className=' w-1/2'>
                 <h1 className='text-4xl text-emerald-600'>Craziest Movie All Time</h1>
-                <p className=' text-red-600 m-8'>These movies will blow your mind.</p>
+                <p className=' text-teal-700  m-8'>Choose your favourite movies by ratings. As you can see here many reviewer gave ratings by watching these fantastic movies. 
+                    some best movies are selected , you can go to review page and see all movie reviews.               
+                </p>
                 </div>
                 
             </div>

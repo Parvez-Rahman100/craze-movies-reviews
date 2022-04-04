@@ -1,6 +1,6 @@
 # `Crazy Movies Review`
 
-## [Create React App](https://github.com/facebook/create-react-app).
+## [Live Link](https://crazy-movie-reviews-parvez.netlify.app/)
 
 * This project based on movie review
 * You can see what is the rating
